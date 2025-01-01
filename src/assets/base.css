@@ -1,0 +1,65 @@
+/* base.css */
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #388e3c;
+  --background-color: #f7fafc;
+  --text-color: #2d3748;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  --background-color: #f7fafc;
+  --background-dark: #1a202c;
+  --text-color: #2d3748;
+  --text-dark: #edf2f7;
+  --primary-color: #4caf50;
+  --primary-dark: #388e3c;
+}
+
+body.dark {
+  --background-color: var(--background-dark);
+  --text-color: var(--text-dark);
+}
+
+/* base.css or your global stylesheet */
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #333;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+body.dark {
+  --background-color: #1a202c; /* Dark background */
+  --text-color: #edf2f7; /* Light text for dark mode */
+}
